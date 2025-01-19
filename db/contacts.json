@@ -1,0 +1,143 @@
+[
+  {
+    "name": {
+      "firstName": "Max",
+      "lastName": "Mustermann"
+    },
+    "email": "max.mustermann@example.com",
+    "phoneNumber": "15112345678",
+    "address": {
+      "street": "Musterstraße",
+      "houseNumber": "1",
+      "city": "Musterstadt",
+      "zipCode": "12345"
+      
+    }
+  },
+  {
+    "name": {
+      "firstName": "Maria",
+      "lastName": "Musterfrau"
+    },
+    "email": "maria.musterfrau@example.com",
+    "phoneNumber": "16098765432",
+    "address": {
+      "street": "Hauptstraße",
+      "houseNumber": "42",
+      "city": "Hauptdorf",
+      "zipCode": "67890"
+    }
+  },
+  {
+    "name": {
+      "firstName": "Hans",
+      "lastName": "Meier"
+    },
+    "email": "hans.meier@example.de",
+    "phoneNumber": "1719876543",
+    "address": {
+      "street": "Bahnhofstraße",
+      "houseNumber": "7",
+      "city": "Kleinstadt",
+      "zipCode": "54321"
+    }
+  },
+  {
+    "name": {
+      "firstName": "Petra",
+      "lastName": "Schulz"
+    },
+    "email": "petra.schulz@example.de",
+    "phoneNumber": "1523456789",
+    "address": {
+      "street": "Gartenweg",
+      "houseNumber": "9",
+      "city": "Blumenstadt",
+      "zipCode": "23456"
+    }
+  },
+  {
+    "name": {
+      "firstName": "Thomas",
+      "lastName": "Becker"
+    },
+    "email": "thomas.becker@example.de",
+    "phoneNumber": "1629876543",
+    "address": {
+      "street": "Ringstraße",
+      "houseNumber": "5",
+      "city": "Neustadt",
+      "zipCode": "34567"
+    }
+  },
+  {
+    "name": {
+      "firstName": "Sabine",
+      "lastName": "Köhler"
+    },
+    "email": "sabine.koehler@example.de",
+    "phoneNumber": "1765432109",
+    "address": {
+      "street": "Schulstraße",
+      "houseNumber": "18",
+      "city": "Bildungshausen",
+      "zipCode": "45678"
+    }
+  },
+  {
+    "name": {
+      "firstName": "Michael",
+      "lastName": "Wagner"
+    },
+    "email": "michael.wagner@example.de",
+    "phoneNumber": "1701234567",
+    "address": {
+      "street": "Bergstraße",
+      "houseNumber": "11",
+      "city": "Bergdorf",
+      "zipCode": "56789"
+    }
+  },
+  {
+    "name": {
+      "firstName": "Karin",
+      "lastName": "Fischer"
+    },
+    "email": "karin.fischer@example.de",
+    "phoneNumber": "1739876543",
+    "address": {
+      "street": "Lindenallee",
+      "houseNumber": "23",
+      "city": "Baumstadt",
+      "zipCode": "67890"
+    }
+  },
+  {
+    "name": {
+      "firstName": "Frank",
+      "lastName": "Neumann"
+    },
+    "email": "frank.neumann@example.de",
+    "phoneNumber": "1746543210",
+    "address": {
+      "street": "Weinbergstraße",
+      "houseNumber": "4",
+      "city": "Winzerdorf",
+      "zipCode": "78901"
+    }
+  },
+  {
+    "name": {
+      "firstName": "Claudia",
+      "lastName": "Hoffmann"
+    },
+    "email": "claudia.hoffmann@example.de",
+    "phoneNumber": "1753456789",
+    "address": {
+      "street": "Marktplatz",
+      "houseNumber": "3",
+      "city": "Altstadt",
+      "zipCode": "89012"
+    }
+  }
+]

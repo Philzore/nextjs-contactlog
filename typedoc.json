@@ -1,0 +1,18 @@
+{
+  "entryPoints": [
+    "pages/index.tsx",
+    "components/**/*.tsx",
+    "utils/**/*.ts",
+    "redux/**/*.ts"
+  ],  // Der Einstiegspunkt deiner Anwendung
+  "out": "./public/docs",                    // Das Ausgabeverzeichnis für die generierte Dokumentation
+  "exclude": ["**/node_modules/**"], // Zu ignorierende Verzeichnisse
+  "excludeExternals": true,         // Externe Module aus der Dokumentation ausschließen
+  "excludePrivate": true,           // Private Mitglieder ausschließen
+  "excludeProtected": true,         // Geschützte Mitglieder ausschließen
+  "tsconfig": "./tsconfig.json",    // Verweist auf deine TypeScript-Konfigurationsdatei
+  "theme": "default",               // Das Design der generierten Dokumentation
+  "readme": "none"                  // Keine README-Datei einfügen
+}
+
+  
