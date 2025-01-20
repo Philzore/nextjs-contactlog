@@ -21,13 +21,13 @@ async function dbConnect() {
 
     if (!cached.promise) {
         // local db
-        const uri = 'mongodb://localhost:27017/contact-log-db';
+        // const uri = 'mongodb://localhost:27017/contact-log-db';
         //atlas mongodb
-        // const uri = process.env.MONGODB_URI;
+        const uri = process.env.MONGODB_URI;
 
-        // if (!uri) {
-        //     throw new Error("Die MONGODB_URI Umgebungsvariable ist nicht definiert.");
-        // }
+        if (!uri) {
+            throw new Error("Die MONGODB_URI Umgebungsvariable ist nicht definiert.");
+        }
 
         const options = {
             // useNewUrlParser: true,

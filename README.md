@@ -44,13 +44,13 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [https://nextjs-contactlog.vercel.app](https://nextjs-contactlog.vercel.app) with your browser to see the result.
 
 ## Fill database with some contacts
 
 If you don´t want to fill some contacts for your one, you have the possibility to add ten contacts just with an API call.
 
-You can call [http://localhost:3000/api/fillDB](http://localhost:3000/api/fillDB). This endpoint add 10 contacts to the database.
+You can call [https://nextjs-contactlog.vercel.app/api/fillDB](https://nextjs-contactlog.vercel.app/api/fillDB). This endpoint add 10 contacts to the database.
 
 
 

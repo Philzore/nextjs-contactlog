@@ -38,7 +38,7 @@ export default function Contacts({ onEditContact }: ContactListProps) {
    */
   const deleteUser = async (contact: Contact) => {
     try {
-      const res = await axios.delete('http://localhost:3000/api/contacts', { data: { _id: contact._id } });
+      const res = await axios.delete('https://nextjs-contactlog.vercel.app/api/contacts', { data: { _id: contact._id } });
       if (res.status === 200) {
         dispatch(deleteContact(contact));
         toast.error("Kontakt wurde gelöscht", {

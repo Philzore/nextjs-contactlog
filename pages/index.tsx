@@ -85,7 +85,7 @@ export default Home;
  */
 export async function getServerSideProps() {
   try {
-    const res = await axios.get('http://localhost:3000/api/contacts');
+    const res = await axios.get('https://nextjs-contactlog.vercel.app/api/contacts');
     const contacts = res.data;
 
     // success 

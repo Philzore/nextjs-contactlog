@@ -184,7 +184,7 @@ export default function FormComponent({ selectedContact, resetSelectedContact }:
      */
     const handleCreateContact = async (formData: Contact) => {
         try {
-            const res = await axios.post('http://localhost:3000/api/contacts', formData);
+            const res = await axios.post('https://nextjs-contactlog.vercel.app/api/contacts', formData);
             if (res.status === 201) {
                 dispatch(addContact(res.data));
                 toast.success("Neuer Kontakt wurde erstellt", {
@@ -204,7 +204,7 @@ export default function FormComponent({ selectedContact, resetSelectedContact }:
      */
     const handleUpdateContact = async (formData: Contact) => {
         try {
-            const res = await axios.patch('http://localhost:3000/api/contacts', formData);
+            const res = await axios.patch('https://nextjs-contactlog.vercel.app/api/contacts', formData);
             if (res.status === 200) {
                 dispatch(updateContact(res.data));
                 toast.success("Kontakt wurde erfolgreich überarbeitet", {
