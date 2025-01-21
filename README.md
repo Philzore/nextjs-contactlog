@@ -20,7 +20,7 @@ npm install
 go to the project directory and run:
 
 ```bash
-docker-compose up
+docker-compose up -d
 ```
 This download the necessary images from docker and create a container where the mongo database and mongo-express are inside.
 
