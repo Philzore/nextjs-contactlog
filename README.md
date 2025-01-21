@@ -17,16 +17,10 @@ npm install
 
 ## Install Docker Image
 
-in docker-compose.yml change:
-
-"image: contact-log-db-image"
-to:
-"image: mongo"
-
 go to the project directory and run:
 
 ```bash
-docker-compose up
+docker-compose up -d
 ```
 This download the necessary images from docker and create a container where the mongo database and mongo-express are inside.
 
@@ -52,8 +46,6 @@ If you don´t want to fill some contacts for your one, you have the possibility 
 
 You can call [https://nextjs-contactlog.vercel.app/api/fillDB](https://nextjs-contactlog.vercel.app/api/fillDB). This endpoint add 10 contacts to the database.
 
-
-
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
@@ -66,4 +58,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Deploy on Vercel
 
 You can test a live Version with AtlasDB here :
-[Live Version]()
+[Live Version](https://nextjs-contactlog.vercel.app/)
