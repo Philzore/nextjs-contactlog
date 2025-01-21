@@ -17,12 +17,6 @@ npm install
 
 ## Install Docker Image
 
-in docker-compose.yml change:
-
-"image: contact-log-db-image"
-to:
-"image: mongo"
-
 go to the project directory and run:
 
 ```bash
@@ -66,4 +60,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Deploy on Vercel
 
 You can test a live Version with AtlasDB here :
-[Live Version]()
+[Live Version](https://nextjs-contactlog.vercel.app/)
