@@ -1,6 +1,6 @@
 services:
   mongodb:
-    image: contact-log-db-image
+    image: mongo
     container_name: mongodb
     ports:
       - "27017:27017"
